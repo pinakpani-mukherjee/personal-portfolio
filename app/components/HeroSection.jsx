@@ -21,9 +21,11 @@ export const HeroSection = () => {
                                 1000,
                                 'Data Engineer',
                                 1000,
-                                'Software Developer',
+                                'Software Dev',
                                 1000,
-                                'Full Stack Engineer',
+                                'Technologist',
+                                1000,
+                                'Cloud Architect',
                                 1000
                             ]}
                             wrapper="span"
@@ -31,12 +33,13 @@ export const HeroSection = () => {
 
                             repeat={Infinity}
                         />
+
+                        <br></br>
                     </h1>
                     <p className='text-[#ADB7BE] text-lg mb-6 l:text-xl '>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Quasi nemo debitis sapiente unde ducimus quae itaque magnam ut!
-                        Laborum repudiandae qui deleniti odit cumque. Quisquam provident
-                        fugit itaque blanditiis error?
+                        I am currently a consultant working in the heart of Tokyo. I am a <a href='https://www.studyinjapan.go.jp/en/planning/about-scholarship/#:~:text=to%201%20year.-,3.%20Japanese%20Government%20(Monbukagakusho%20MEXT)%20Scholarship,-There%20are%20two' class="no-underline hover:underline">MEXT Scholar</a> and a graduate from Yokohama National University(横浜国立大学) in Electronics and Computer Science.
+                        I have worked in the Machine Learning field for some time and also am a certified Cloud Architect. I am proficient in multiple languages, including Japanese and English.
+                        Please feel free to contact me. I will respond as quickly as I can.
                     </p>
                     <div>
                         <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-violet-500 to-red-600 hover:bg-slate-200 text-white'>
@@ -52,7 +55,7 @@ export const HeroSection = () => {
                 <div className='col-span-5 place-self-center mt-0'>
                     <div className='rounded-full bg-[#121212] w-[500px] h-[500px] relative'>
                         <Image
-                            src="/images/photo2_modified.png"
+                            src="/images/photo3.png"
                             alt="hero image"
                             className='absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
                             width={400}
