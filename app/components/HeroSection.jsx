@@ -1,7 +1,7 @@
 "use client";
 import React from 'react'
 import Image from 'next/image'
-
+import { FaLinkedin, FaSquareXTwitter, FaSquareGithub, FaInstagram } from "react-icons/fa6"
 import { TypeAnimation } from 'react-type-animation';
 
 
@@ -61,6 +61,32 @@ export const HeroSection = () => {
                             width={400}
                             height={400}
                         />
+                    </div>
+                    <div className='flex justify-evenly my-2'>
+                        <div>
+                            <a href='https://www.linkedin.com/in/pinakpani-mukherjee-61573b166/'>
+                                <FaLinkedin className='w-8 h-8' />
+                            </a>
+
+                        </div>
+                        <div>
+                            <a href='https://github.com/pinakpani-mukherjee'>
+                                <FaSquareGithub className='w-8 h-8' />
+                            </a>
+
+                        </div>
+                        <div>
+                            <a href='https://twitter.com/dibeticpanda'>
+                                <FaSquareXTwitter className='w-8 h-8' />
+                            </a>
+
+                        </div>
+                        <div>
+                            <a href='https://www.instagram.com/mukherjee_pinakpani/'>
+                                <FaInstagram className='w-8 h-8' />
+                            </a>
+
+                        </div>
                     </div>
 
                 </div>
