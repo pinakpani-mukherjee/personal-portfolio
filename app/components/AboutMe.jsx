@@ -102,19 +102,7 @@ const TAB_DATA = [
             </div>
         )
     },
-    {
-        title: "Experience",
-        id: "experience",
-        content: (
-            <ul className='list-disc pl-2'>
-                <li>Python</li>
-                <li>Go</li>
-                <li>Postgres</li>
-                <li>Javascript</li>
-                <li>Python</li>
-            </ul>
-        )
-    },
+
     {
         title: "Certificates",
         id: "certificates",
@@ -144,15 +132,22 @@ const AboutMe = () => {
     return (
         <section className='text-white'>
             <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
-                <Image src={"/images/picture_5.jpg"} width={500} height={500} className='rounded-2xl' />
+                <div className='text-left flex flex-col h-full pt-10'>
+                    <Image src={"/images/picture_5.jpg"} width={500} height={500} className='rounded-2xl' />
+                </div>
                 <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
                     <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
-                    <p className='text-base lg:text-lg '>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut asperiores doloremque facere aliquid laboriosam,
-                        reprehenderit consectetur in dolore voluptatibus. Sunt velit minus quis tempore earum animi, commodi impedit consequuntur eius!</p>
+                    <p className='text-base lg:text-lg '>I am a Bengali born in Kolkata. I lived for over 10 years in Mumbai during my formative
+                        years before coming to Japan under scholarship. I came to Japan with no idea what I was going to do in the future. At that time
+                        I couldn't even speak a word of Japanese. This year marks the 7th year I have been in Japan, fluent in the language and well versed
+                        in the professional scene. I came to study Chemical Engineering and then swtich my major to Electronics and Computer Science. I believe
+                        that it was the best decision I made. I now have a modicum of experience regarding a whole variety of Software and Cloud Architectural
+                        frameworks. Everyday for me is a day t learn something new. Currently I am studying for the GMAT while getting better at Cloud Engineering.
+                        I hope to get all the AWS/GCP/Azure cloud certificates during my time here in Japan.</p>
                     <div className='flex flex-row mt-8'>
                         <TabButton selectTab={() => handleTabChange("skills")} active={tab === "skills"}> Skills </TabButton>
                         <TabButton selectTab={() => handleTabChange("education")} active={tab === "education"}> Education </TabButton>
-                        <TabButton selectTab={() => handleTabChange("experience")} active={tab === "experience"}> Experience </TabButton>
+
                         <TabButton selectTab={() => handleTabChange("certificates")} active={tab === "certificates"}> Certificates </TabButton>
                     </div>
                     <div className='mt-8'>
