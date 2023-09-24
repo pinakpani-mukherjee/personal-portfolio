@@ -37,7 +37,7 @@ export const HeroSection = () => {
                         <br></br>
                     </h1>
                     <p className='text-[#ADB7BE] text-lg mb-6 l:text-xl '>
-                        I am currently a consultant working in the heart of Tokyo. I am a <a href='https://www.studyinjapan.go.jp/en/planning/about-scholarship/#:~:text=to%201%20year.-,3.%20Japanese%20Government%20(Monbukagakusho%20MEXT)%20Scholarship,-There%20are%20two' class="no-underline hover:underline">MEXT Scholar</a> and a graduate from Yokohama National University(横浜国立大学) in Electronics and Computer Science.
+                        I am currently a consultant working in the heart of Tokyo. I am a <a href='https://www.studyinjapan.go.jp/en/planning/about-scholarship/#:~:text=to%201%20year.-,3.%20Japanese%20Government%20(Monbukagakusho%20MEXT)%20Scholarship,-There%20are%20two' className="underline">MEXT Scholar</a> and a graduate from Yokohama National University(横浜国立大学) in Electronics and Computer Science.
                         I have worked in the Machine Learning field for some time and also am a certified Cloud Architect. I am proficient in multiple languages, including Japanese and English.
                         Please feel free to contact me. I will respond as quickly as I can.
                     </p>
