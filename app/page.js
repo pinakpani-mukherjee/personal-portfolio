@@ -1,6 +1,7 @@
 import HeroSection from './components/HeroSection'
 import Navbar from './components/Navbar'
 import AboutMe from './components/AboutMe'
+import Employment from './components/Employment'
 
 export default function Home() {
   return (
@@ -13,6 +14,8 @@ export default function Home() {
         <br></br>
         <br></br>
         <AboutMe />
+        <br></br>
+        <Employment />
       </div>
 
     </main>
