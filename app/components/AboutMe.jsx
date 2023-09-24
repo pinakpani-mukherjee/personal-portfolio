@@ -80,13 +80,26 @@ const TAB_DATA = [
         title: "Education",
         id: "education",
         content: (
-            <ul className='list-disc pl-2'>
-                <li>Python</li>
-                <li>Go</li>
-                <li>Postgres</li>
-                <li>Javascript</li>
-                <li>Python</li>
-            </ul>
+            <div className='md:grid md:grid-cols-2 gap-8 items-center '>
+                <div className='flex flex-col h-full'>
+                    <h3 className='font-bold text-white mb-4'><a href='https://www.ynu.ac.jp/english/' className='no-underline hover:underline'>Yokohama National University <br></br>横浜国立大学</a></h3>
+                    <ul className='pl-2 list-item'>
+                        <li>Bachelors in Electronics and Information Technology,</li>
+                        <li>Department of Mathematics, Physics, Electrical Engineering and Computer Science,</li>
+                        <li>College of Engineering Sciences,</li>
+                        <li>2018-2023</li>
+                    </ul>
+                </div>
+                <div className='flex flex-col h-full'>
+                    <h3 className='font-bold text-white mb-4'><a href='https://www.tufs.ac.jp/english/' className='no-underline hover:underline'>Tokyo University of Foreign Studies<br></br>東京外国語大学</a></h3>
+                    <ul className='pl-2 list-item'>
+                        <li>Diploma in Japanese,</li>
+                        <li>Japanese Language Center for International Students,</li>
+                        <li>School of Language and Culture Studies,</li>
+                        <li>2017-2018</li>
+                    </ul>
+                </div>
+            </div>
         )
     },
     {
@@ -107,11 +120,11 @@ const TAB_DATA = [
         id: "certificates",
         content: (
             <ul className='list-disc pl-2'>
-                <li>Python</li>
-                <li>Go</li>
-                <li>Postgres</li>
-                <li>Javascript</li>
-                <li>Python</li>
+                <li>AWS Cloud Practitioner, Foundational</li>
+                <li>AWS Solutions Architect, Associate</li>
+                <li>AWS Developer, Associate</li>
+                <li>GCP Associate Cloud Engineer</li>
+                <li>GCP Professional Cloud Architect</li>
             </ul>
         )
     }
