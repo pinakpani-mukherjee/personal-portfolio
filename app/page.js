@@ -2,6 +2,8 @@ import HeroSection from './components/HeroSection'
 import Navbar from './components/Navbar'
 import AboutMe from './components/AboutMe'
 import Employment from './components/Employment'
+import EmailSection from './components/EmailSection'
+import Footer from './components/Footer'
 
 export default function Home() {
   return (
@@ -16,7 +18,10 @@ export default function Home() {
         <AboutMe />
         <br></br>
         <Employment />
+        <EmailSection />
+
       </div>
+      <Footer />
 
     </main>
   )

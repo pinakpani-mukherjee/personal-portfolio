@@ -3,7 +3,7 @@ import React from 'react'
 import Image from 'next/image'
 import { FaLinkedin, FaSquareXTwitter, FaSquareGithub, FaInstagram } from "react-icons/fa6"
 import { TypeAnimation } from 'react-type-animation';
-
+import Link from 'next/link';
 
 
 export const HeroSection = () => {
@@ -42,12 +42,12 @@ export const HeroSection = () => {
                         Please feel free to contact me. I will respond as quickly as I can.
                     </p>
                     <div>
-                        <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-violet-500 to-red-600 hover:bg-slate-200 text-white'>
-                            For a Consult
+                        <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-violet-500 to-red-600 hover:bg-slate-200 text-white' >
+                            <Link href="#contact">For a Consult</Link>
                         </button>
                         <button className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-violet-500 to-red-500 hover:bg-slate-800 text-white  mt-3'>
                             <span className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2'>
-                                Download CV
+                                <a href="/CV_pinakpani.pdf">Download CV</a>
                             </span>
                         </button>
                     </div>

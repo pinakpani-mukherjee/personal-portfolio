@@ -130,7 +130,7 @@ const AboutMe = () => {
         });
     };
     return (
-        <section className='text-white'>
+        <section className='text-white' id="about">
             <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
                 <div className='text-left flex flex-col h-full pt-10'>
                     <Image src={"/images/picture_5.jpg"} width={500} height={500} className='rounded-2xl' />
